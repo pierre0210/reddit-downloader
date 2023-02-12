@@ -10,5 +10,5 @@ if (barDiv) {
   let dlButton = document.createElement("button");
   dlButton.onclick = downloadMedia;
   dlButton.textContent = "download";
-  barDiv.insertBefore(dlButton, barDiv.childNodes[barDiv.childNodes.length - 2]);
+  barDiv.insertBefore(dlButton, barDiv.childNodes[barDiv.childNodes.length - 3]);
 }
